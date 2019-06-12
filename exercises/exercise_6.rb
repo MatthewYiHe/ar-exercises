@@ -9,11 +9,11 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
-@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 61.5).inspect
 @store1.employees.create(first_name: "Matt", last_name: "Mathews", hourly_rate: 100)
 @store1.employees.create(first_name: "Gin", last_name: "Ger", hourly_rate: 80)
 @store1.employees.create(first_name: "Kathy", last_name: "zhou", hourly_rate: 60)
-@store1.employees.create(first_name: "Ben", last_name: "wang", hourly_rate: 40)
+@store1.employees.create(first_name: "Ben", last_name: "wang", hourly_rate: 45)
 
 @store2.employees.create(first_name: "Linda", last_name: "Virani", hourly_rate: 50)
 @store2.employees.create(first_name: "MJ", last_name: "dick", hourly_rate: 65)
